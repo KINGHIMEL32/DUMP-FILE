@@ -111,11 +111,11 @@ def meithun():
     todz = ''
     IP = ipm['origin']
     print
-    print('\033[1;93m [H] High Speed File Cloning (V2)')
+    print('\033[1;93m [N] High Speed File Cloning (V2)')
     print(' [E] exit ')
     print('')
     _meithun___ = input(' [?] Choose option : ')
-    if _meithun___ in ('H', 'n'):
+    if _meithun___ in ('N', 'n'):
         __xxx__().meithunx(id)
     if _meithun___ in ('', ''):
         create_file()
