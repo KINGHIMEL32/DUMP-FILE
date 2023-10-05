@@ -92,7 +92,7 @@ logo =                                          """
   [∆]\033[1;93;1m Facebook :mdnx.himel32
   [∆]\033[1;94;1m Whatsapp : 01601161609
   [∆]\033[1;91;1m GitHub   : Kinghimel-32
-  [∆]\033[1;92m   Virson   : KH32.0.22"""                                              
+  [∆]\033[1;92;1m Virson   : KH32.0.22"""                                              
 
 def hasil(OK,cp):
 	if not len(OK) != 0:
@@ -110,7 +110,7 @@ def meithun():
     todz = ''
     IP = ipm['origin']
     print
-    print('\033[1;93m [N] High Speed File Cloning (V2)')
+    print('\033[1;93m [H] High Speed File Cloning (V2)')
     print(' [E] exit ')
     print('')
     _meithun___ = input(' [?] Choose option : ')
