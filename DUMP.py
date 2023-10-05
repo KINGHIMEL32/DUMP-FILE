@@ -93,7 +93,9 @@ logo =                                          """
   [∆]\033[1;94;1m Whatsapp : 01601161609
   [∆]\033[1;91;1m GitHub   : Kinghimel-32
   [∆]\033[1;92;1m Virson   : KH32.0.22
-  \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""                                              
+  \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+  \033[1;92;1m
+  \033[1;92;1m"""                                              
 
 def hasil(OK,cp):
 	if not len(OK) != 0:
@@ -111,11 +113,11 @@ def meithun():
     todz = ''
     IP = ipm['origin']
     print
-    print('\033[1;93m [N] High Speed File Cloning (V2)')
+    print('\033[1;93m [H] High Speed File Cloning (V2)')
     print(' [E] exit ')
     print('')
     _meithun___ = input(' [?] Choose option : ')
-    if _meithun___ in ('N', 'n'):
+    if _meithun___ in ('H', 'n'):
         __xxx__().meithunx(id)
     if _meithun___ in ('', ''):
         create_file()
@@ -142,7 +144,7 @@ class __xxx__:
             self.meithunx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f"\r \x1b[1;97m[NISAD] {loop} | {len(self.id)} [ok] < > [{len(ok)}] < > [cp] < > [{len(cp)}] ")
+        sys.stdout.write(f"\r \x1b[1;97m[HIMEL] {loop} | {len(self.id)} [ok] < > [{len(ok)}] < > [cp] < > [{len(cp)}] ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
