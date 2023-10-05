@@ -92,7 +92,8 @@ logo =                                          """
   [∆]\033[1;93;1m Facebook :mdnx.himel32
   [∆]\033[1;94;1m Whatsapp : 01601161609
   [∆]\033[1;91;1m GitHub   : Kinghimel-32
-  [∆]\033[1;92;1m Virson   : KH32.0.22"""                                              
+  [∆]\033[1;92;1m Virson   : KH32.0.22
+  \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""                                              
 
 def hasil(OK,cp):
 	if not len(OK) != 0:
@@ -114,7 +115,7 @@ def meithun():
     print(' [E] exit ')
     print('')
     _meithun___ = input(' [?] Choose option : ')
-    if _meithun___ in ('N', 'n'):
+    if _meithun___ in ('H', 'n'):
         __xxx__().meithunx(id)
     if _meithun___ in ('', ''):
         create_file()
